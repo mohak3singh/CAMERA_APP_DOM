@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        /*overflow: hidden;         /* extra margin jo canvas leta hai usse htane ke liye */
+      }
+    </style>
+  </head>
+  <body>
+    <canvas></canvas>
+    <img src="img.jpg">
+    <script>
+      let canvas = document.querySelector("canvas");
+      let img = document.querySelector("img");
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      let tool = canvas.getContext("2d");        // to draw on canvas
+      img.addEventListener("load",function(){
+        tool.drawImage(img,0,0)
+      })
+
+      // tool.moveTo(0,0);            // to make a line form 0,0 to any position and give it a stroke
+      // tool.lineTo(500,500);
+      // tool.strokeStyle = "red";
+      // tool.lineWidth = 10;
+      // tool.stroke();
+      // tool.beginPath()      // dono alag alag colors agar chahea to ye likhna zaroori hai varna same color he aajaega neeche vala
+      // tool.moveTo(500,500)
+      // tool.lineTo(800,0);
+      // tool.strokeStyle = "blue";
+      // tool.stroke();
+    </script>
+  </body>
+</html>
