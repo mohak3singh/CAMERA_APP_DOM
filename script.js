@@ -1,3 +1,4 @@
+// MOHAK //
 let video = document.querySelector("video");
 let recordBtn = document.querySelector("#record");
 let recDiv = recordBtn.querySelector("div");
