@@ -7,5 +7,8 @@ Features :
 5. Gallery features which helps to save images and videos and for saving i have used IndexDB Database.
 6. Also you can delete and download the photos or videos saved in gallery.
 
-<img width="959" alt="Camera" src="https://user-images.githubusercontent.com/75531763/123198548-ee370e80-d4ca-11eb-94f6-bd68fc1ae417.png"><img width="938" alt="Camera_01" src="https://user-images.githubusercontent.com/75531763/123198621-0e66cd80-d4cb-11eb-869e-d5bbd409867e.png">
+<img width="958" alt="Camera_03" src="https://user-images.githubusercontent.com/75531763/123199031-c005fe80-d4cb-11eb-8123-e6c79dea5868.png">
+<img width="958" alt="Camera_02" src="https://user-images.githubusercontent.com/75531763/123199034-c1cfc200-d4cb-11eb-8004-13e2f554a8ad.png">
+<img width="953" alt="Camera_04" src="https://user-images.githubusercontent.com/75531763/123199038-c3998580-d4cb-11eb-8fe8-7901861f8b28.png">
+
 
